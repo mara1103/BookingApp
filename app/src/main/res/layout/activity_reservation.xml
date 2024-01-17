@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bckg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter Full Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter Email Address"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Enter Phone Number"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp" />
+
+
+    <EditText
+        android:id="@+id/editNrRooms"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Please Enter Number of Rooms"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-in Date"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextCheckInDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Check-in Date"
+        android:inputType="none"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Câmp pentru data de check-out -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check-out Date"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextCheckOutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Check-out Date"
+        android:inputType="none"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginBottom="16dp" />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/textViewTotalPrice"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:hint="Total Price"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        android:inputType="number" />-->
+
+
+    <TextView
+        android:id="@+id/textViewTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Total Price"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizare Rezervare"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="#FF018786"/>
+</LinearLayout>

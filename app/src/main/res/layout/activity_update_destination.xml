@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bckg"
+        android:gravity="center_horizontal"
+        android:paddingBottom="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Destination"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF018786"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/editImageViewDestination"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_image"
+        android:layout_marginBottom="16dp" />
+
+
+    <EditText
+        android:id="@+id/editTextDestinationName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="#C8FFFFFF"
+        android:hint="  Enter Destination Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="#C8FFFFFF"
+        android:hint="  Image Link"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Enter Description"
+        android:inputType="textMultiLine"
+        android:background="#C8FFFFFF"
+        android:lines="3"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Enter Price"
+        android:inputType="numberDecimal"
+        android:background="#C8FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonSaveChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FF018786"
+        android:text="Save Changes"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
+</ScrollView>

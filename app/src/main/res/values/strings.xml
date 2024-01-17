@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyRecyclerView2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="country_name">Country Name</string>
+    <string name="country_capital">country_capital</string>
+    <string name="country_population">country_population</string>
+    <string name="country_description">Country Description</string>
+    <string name="destination_price">Price</string>
+    <string name="reserve">BOOKING\n</string>
+
+    <string-array name="type">
+        <item>Select Room</item>
+        <item>Single Room</item>
+        <item>Double Room</item>
+        <item>Delux Room</item>
+        <item>Super Delux Room</item>
+    </string-array>
+</resources>
