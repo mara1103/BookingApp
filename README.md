@@ -1,7 +1,8 @@
 # Android Studio Application
 
 You can find here a Booking application that allows users to view and book different tourist destinations. The application has an administration mode for certain users that allows the addition, editing and deletion of some tourist destinations.  
-###Tools:
+
+### Tools:
 - Android Studio
 - Java
 - database in SQLite
